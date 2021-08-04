@@ -1,3 +1,16 @@
+React app that will be able to connect to your MetaMask account, and read your address & ETH balance. If you connect with multiple accounts the interface will change to reflect the active account.
+
+The following tech are used:
+
+react ^17.0.2
+typescript ^4.2.1
+@usedapp/core ^0.4.1
+@chakra-ui/react ^1.6.5
+(you must have Metamask installed and above dependencies installed)
+Just do: 
+yarn install
+yarn start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
