@@ -4,6 +4,7 @@ import ConnectButton from "./components/ConnectButton";
 import theme from "./theme";
 import AccountModal from "./components/AccountModal";
 import "@fontsource/inter";
+import Count from "./components/Count";
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <ConnectButton handleOpenModal={onOpen} />
         {/* Our Account modal will handle open state & closing */}
         <AccountModal isOpen={isOpen} onClose={onClose} />
+        <Count/>
         </Layout>
     </ChakraProvider>
   )
